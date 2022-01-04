@@ -1,0 +1,37 @@
+$primary: #FF8A2C;
+$secondary: #58595B;
+$white: #ffffff;
+$dark: #41454b;
+$secondary-dark: #41454b;
+$green: #f7f8e6;
+$dark-green: #5b640c;
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "white": $white,
+    "dark": $dark,
+    "secondary-dark": $secondary-dark,
+    "green": $green,
+    "dark-green": $dark-green,
+);
+
+$display-font-sizes: (
+  1: 5rem,
+  2: 3.5rem,
+  3: 3rem,
+  4: 2.5rem,
+  5: 2rem,
+  6: 1.5rem
+);
+
+
+@import "~bootstrap/scss/bootstrap.scss";
+@import "@fortawesome/fontawesome-free/css/all.css";
+@import "@fancyapps/ui/dist/fancybox.css";
+
+@import "global";
+@import "header";
+@import "pages";
+@import "footer";
+@import "responsive";

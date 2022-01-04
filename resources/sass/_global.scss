@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+    line-height: 1.8;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.alert-success {
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+}
+
+.alert-danger {
+    color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+}
+
+.btn-circle {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 1rem;
+    border-radius: 50%!important;
+}
+
+.banner-page {
+    height: 250px;
+}
+
+.heading {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    line-height: 1.25;
+    color: $primary;
+    font-weight: 500;
+
+    span {
+        font-weight: 400;
+    }
+}
+
+
+//Swiper
+
+.swiper {
+    .swiper-button-next,
+    .swiper-button-prev {
+        color: #333;
+    }
+
+    .swiper-pagination {
+        .swiper-pagination-bullet {
+            height: 12px;
+            width: 12px;
+            border-radius: 0;
+        }
+
+        .swiper-pagination-bullet-active {
+            background: #4D4D4F;
+        }
+    }
+}
+
+
+// Nav Pills
+.nav-pills .nav-link {
+    color: #000;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: $primary;
+    background-color: transparent;
+    border-radius: 0;
+    border-bottom: 3px solid $primary;
+}
